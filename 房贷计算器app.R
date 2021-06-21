@@ -144,5 +144,5 @@ shinyApp(
     output$text7<- renderText(input$s*input$p*as.numeric(input$r))
     output$text8<- renderText(loan4(input$s*input$p*as.numeric(input$r),input$i,input$m1,12))
   })
-
+runGitHub("123456","iampig")
 
